@@ -1,7 +1,19 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) Siqi-MBP:project-ml-microservice-kubernetes apple$ sh run_kubernetes.sh 
+2.0: Pulling from siqili/project4
+Digest: sha256:1a8c50b606e290a79fef2740650b5404b4cf9d2dd188ff4ede7eb8a1ca195be0
+Status: Image is up to date for siqili/project4:2.0
 docker.io/siqili/project4:2.0
 NAME                                   READY   STATUS    RESTARTS   AGE
-kubernetes-project4-6b564f44cf-k7rpz   1/1     Running   0          45m
+kubernetes-project4-6b564f44cf-rt268   1/1     Running   0          2m54s
 Forwarding from 127.0.0.1:3000 -> 80
 Forwarding from [::1]:3000 -> 80
 Handling connection for 3000
+Handling connection for 3000
+
+(.devops) Siqi-MBP:project-ml-microservice-kubernetes apple$ sh make_prediction.sh 
+Port: 3000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
