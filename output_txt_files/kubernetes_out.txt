@@ -1,0 +1,7 @@
+<paste log output from Kubernetes-mediated prediction, here>
+docker.io/siqili/project4:2.0
+NAME                                   READY   STATUS    RESTARTS   AGE
+kubernetes-project4-6b564f44cf-k7rpz   1/1     Running   0          45m
+Forwarding from 127.0.0.1:3000 -> 80
+Forwarding from [::1]:3000 -> 80
+Handling connection for 3000
